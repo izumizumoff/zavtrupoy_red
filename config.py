@@ -8,7 +8,7 @@ password = None
 known_hosts = None
 rsa_key = None
 
-with open('.settings/path.json', 'r') as file:
+with open('settings/path.json', 'r') as file:
     PATH = json.load(file)
 
 # for google token
