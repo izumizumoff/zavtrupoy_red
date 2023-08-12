@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>310</width>
+    <height>334</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Добавить АКТЕРА в базу данных</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_addActorBase_name">
+       <property name="text">
+        <string>ФИО АКТЕРА</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_addActorBase_name"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_addActorBase_short_name">
+       <property name="text">
+        <string>КОРОТКОЕ ИМЯ ДЛЯ КАЛЕНДАРЯ</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_addActorBase_short_name"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_addActorBase_gender">
+       <property name="text">
+        <string>ПОЛ</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_addActorBase_gender"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_addActorBase_state">
+       <property name="text">
+        <string>В ШТАТЕ / ПО ДОГОВОРУ</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_addActorBase_state"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_addActorBase_age">
+       <property name="text">
+        <string>ДЕНЬ РОЖДЕНИЯ</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QDateEdit" name="dateEdit_addActorBase_ageD">
+         <property name="displayFormat">
+          <string>d</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDateEdit" name="dateEdit_addActorBase_ageM">
+         <property name="displayFormat">
+          <string>M</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDateEdit" name="dateEdit_addActorBase_ageY">
+         <property name="displayFormat">
+          <string>yyyy</string>
+         </property>
+         <property name="date">
+          <date>
+           <year>2021</year>
+           <month>1</month>
+           <day>1</day>
+          </date>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_addActorBase_time">
+       <property name="text">
+        <string>ДАТА НАЧАЛА СОТРУДНИЧЕСТВА С ТЕАТРОМ</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QDateEdit" name="dateEdit_addActorBase_timeD">
+         <property name="displayFormat">
+          <string>d</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDateEdit" name="dateEdit_addActorBase_timeM">
+         <property name="displayFormat">
+          <string>M</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDateEdit" name="dateEdit_addActorBase_timeY">
+         <property name="displayFormat">
+          <string>yyyy</string>
+         </property>
+         <property name="date">
+          <date>
+           <year>2021</year>
+           <month>1</month>
+           <day>1</day>
+          </date>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item alignment="Qt::AlignBottom">
+      <widget class="QPushButton" name="pushButton_addActorBase_ok">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>OK</string>
+       </property>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignBottom">
+      <widget class="QPushButton" name="pushButton_addActorBase_cancel">
+       <property name="text">
+        <string>CANCEL</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

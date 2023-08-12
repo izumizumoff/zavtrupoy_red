@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>471</width>
+    <height>526</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Добавить СПЕКТАКЛЬ в базу данных</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_addActBase_title">
+       <property name="text">
+        <string>НАЗВАНИЕ СПЕКТАКЛЯ</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_addActBase_title"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_addActBase_space">
+       <property name="text">
+        <string>ПРОСТРАНСТВО</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_addActBase_space"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_addActBase_assist">
+       <property name="text">
+        <string>ПОМОЩНИК РЕЖИССЕРА</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_addActBase_assist"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label__addActBase_time">
+       <property name="text">
+        <string>ПРОДОЛЖИТЕЛЬНОСТЬ СПЕКТАКЛЯ В МИНУТАХ</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="spinBox_addActBase_time">
+       <property name="minimum">
+        <number>10</number>
+       </property>
+       <property name="maximum">
+        <number>999</number>
+       </property>
+       <property name="singleStep">
+        <number>10</number>
+       </property>
+       <property name="value">
+        <number>90</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_addActBase_date">
+       <property name="text">
+        <string>ДАТА ПРЕМЬЕРЫ</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QDateEdit" name="dateEdit_addActBase_dateD">
+         <property name="displayFormat">
+          <string>dd</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDateEdit" name="dateEdit_addActBase_dateM">
+         <property name="displayFormat">
+          <string>MM</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDateEdit" name="dateEdit_addActBase_dateY">
+         <property name="displayFormat">
+          <string>yyyy</string>
+         </property>
+         <property name="date">
+          <date>
+           <year>2021</year>
+           <month>1</month>
+           <day>1</day>
+          </date>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item alignment="Qt::AlignBottom">
+      <widget class="QPushButton" name="pushButton_addActBase_ok">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>OK</string>
+       </property>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignBottom">
+      <widget class="QPushButton" name="pushButton_addActBase_cancel">
+       <property name="text">
+        <string>CANCEL</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

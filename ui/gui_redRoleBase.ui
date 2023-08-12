@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>310</width>
+    <height>334</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Изменить данные в РОЛЯХ</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_redRoleBase_act">
+       <property name="text">
+        <string>ВЫБРАТЬ СПЕКТАКЛЬ</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_redRoleBase_act"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_redRoleBase_attr">
+       <property name="text">
+        <string>ВЫБРАТЬ ЧТО ИЗМЕНЯТЬ</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_redRoleBase_attr"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_redRoleBase_role">
+       <property name="text">
+        <string>ВЫБРАТЬ РОЛЬ</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_redRoleBase_role"/>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item alignment="Qt::AlignBottom">
+      <widget class="QPushButton" name="pushButton_redRoleBase_ok">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>OK</string>
+       </property>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignBottom">
+      <widget class="QPushButton" name="pushButton_redRoleBase_cancel">
+       <property name="text">
+        <string>CANCEL</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

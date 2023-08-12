@@ -1,0 +1,6 @@
+pip install google-api-python-client
+pip install google_auth_oauthlib
+pip install PyQt5
+pip install openpyxl
+pip install docxtpl
+pip install pysftp
